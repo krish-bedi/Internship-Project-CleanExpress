@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CleanExpress - Homepage</title>
+
+  <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+
+  <link rel="stylesheet" tpye="text/css" href="css/grid.css">
+  <link rel="stylesheet" tpye="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/plugins/CSSPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/easing/EasePack.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="css/img/logo.png" alt="Logo" class="logo">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="signup-btn">Signup | Login</div>
+    </nav>
+    <div class="hero-box">
+      <h1>Welcome to Clean Express!</h1>
+      <p>Remember the Clean Express, that was a sign of the comforts of home?<br />
+        Remember a time you could always count on a clean and fresh-smelling <br />
+        set of garments? Now you won't have to remember them anymore because <br />
+        all this can once again be a part of your life!</p>
+        <div class="header-scroll-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+            <defs>
+              <filter id="goo">
+                <fegaussianblur in="SourceGraphic" stddeviation="10" result="blur" />
+                <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <fecomposite in="SourceGraphic" in2="goo"/>
+              </filter>
+            </defs>
+          </svg>
+
+          <span class="button--bubble__container">
+            <a href="#campaign" class="button button--bubble">
+              Learn More
+            </a>
+            <span class="button--bubble__effect-container">
+              <span class="circle top-left"></span>
+              <span class="circle top-left"></span>
+              <span class="circle top-left"></span>
+              <span class="button effect-button"></span>
+              <span class="circle bottom-right"></span>
+              <span class="circle bottom-right"></span>
+              <span class="circle bottom-right"></span>
+            </span>
+          </span>
+        </div>
+      </div>
+      <img src="css/img/Asset-1.jpeg" class="image-asset1">
+    </header>
+    <section class="section-process">
+      <div class="section-process-video-overlay"></div>
+      <div class="video-container">
+      <div class="filter"></div>
+      <video autoplay loop class="fillWidth">
+      <source src="css/img/ocean.mp4" type="video/mp4" />
+      <source src="css/img/ocean.webm" type="video/webm" />
+    </video>
+  </div>
+
+  <div class="section-process-slider">
+    <div><img src="css/img/image1.jpeg" alt=""></div>
+    <div><img src="css/img/image2.jpeg" alt=""></div>
+    <div><img src="css/img/image3.jpeg" alt=""></div>
+    <div><img src="css/img/image4.jpeg" alt=""></div>
+    <div><img src="css/img/image5.jpeg" alt=""></div>
+  </div>
+</section>
+<section class="section-services">
+  <div class="row">
+        <div class="col-4">
+          <div class="section-services-box">
+            <h3>About us</h3>
+            <p>
+              Clean Express provides high quality laundry and dry cleaning services for your everyday wear.
+            </p>
+            <a href="about.html"><div class="section-services-box-button">
+              learn more...
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="section-services-box">
+            <h3>Contact</h3>
+            <p>
+              Call us and we will be right there, doing laundry has never been this easy before.
+            </p>
+            <a href="contact.html"><div class="section-services-box-button">
+              learn more...
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="section-services-box">
+            <h3>Pricing</h3>
+            <p>
+              View our various pricing plans and combo packages.
+            </p>
+            <a href="pricing.html"><div class="section-services-box-button">
+              learn more...
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+</section>
+<footer>
+  <div class="footer-info-1">
+    <h3>OPENING HOURS</h3>
+    <p>Our staff members are on location
+      and available throughout the day
+      <br /><br />
+      MONDAY - SUNDAY
+      09:30 AM - 09:30 PM</p>
+  </div>
+  <div class="footer-info-2">
+    <ul>
+      <li>+91 9666 505050</li>
+      <li>+91 9666 292929</li>
+      <li>info@cleanexpress.in</li>
+      <li>www.@cleanexpress.in</li>
+    </ul>
+    <img src="css/img/wave.png">
+  </div>
+
+</footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
